@@ -113,7 +113,7 @@ var bio = {
 				$(".work-entry").append(HTMLworkDates.replace("%data%",v.dates));
 				$(".work-entry").append(HTMLworkLocation.replace("%data%",v.location));
 				$(".work-entry").append(HTMLworkDescription.replace("%data%",v.description));
-			})
+			});
 
 
 		}
@@ -145,10 +145,9 @@ var bio = {
       		$(".project-entry").append(HTMLprojectDescription.replace("%data%",v.description));
       		$.each(v.images, function (idx, url) {
       			$(".project-entry").append(HTMLprojectImage.replace("%data%", url));
-      		})
+      		});
       		
-
-      	})
+      	});
       }
 
 	};
