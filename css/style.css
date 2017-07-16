@@ -1,3 +1,17 @@
+/*
+
+  2017/07/16 - dphayes
+    modified color scheme based on 
+    https://designschool.canva.com/wp-content/uploads/sites/2/2016/01/Palette_46-tb-530x0.jpg
+
+    #484848 > #333A56
+    #F3F3F3 > #F7F5E6
+    #999 > #52658F
+    #f5ae23 > #E8E8E8
+*/
+
+
+
 body,
 div,
 ul,
@@ -11,7 +25,8 @@ h5,
 h6 {
   padding: 0;
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
+  font-family: 'Inconsolata', monospace;
 }
 
 .clear-fix {
@@ -26,7 +41,7 @@ h6 {
 
 h1 {
   font-size: 40px;
-  color: #f5a623;
+  color: #E8E8E8; /* #f5a623; */ 
   line-height: 48px;
   display: inline;
 }
@@ -34,7 +49,7 @@ h1 {
 h2 {
   font-weight: bold;
   font-size: 24px;
-  color: #999;
+  color: #52658F; /* #999; */
   line-height: 29px;
   padding: 10px;
 }
@@ -62,10 +77,15 @@ h5 {
 }
 
 
+#header span {
+  color: #E8E8E8;
+}
+
+
 .date-text {
   font-style: italic;
   font-size: 14px;
-  color: #999;
+  color: #52658F; /* #999; */
   line-height: 16px;
   float: left;
 }
@@ -73,7 +93,7 @@ h5 {
 .location-text {
   font-style: italic;
   font-size: 14px;
-  color: #999;
+  color: #52658F; /* #999; */
   line-height: 16px;
   float: right;
 
@@ -95,21 +115,21 @@ a {
 .welcome-message {
   font-style: italic;
   font-size: 18px;
-  color: #f3f3f3;
+  color: #F7F5E6;  /* #f3f3f3; */
   line-height: 28px;
 }
 
 #skills-h3 {
-  color: #f5ae23;
+  color: #E8E8E8; /* #f5ae23; */
   display: none;
 }
 
 .orange {
-  background-color: #f5ae23;
+  background-color: #E8E8E8; /* #f5ae23; */ 
 }
 
 .orange-text {
-  color: #f5ae23;
+  color: #E8E8E8; /* #f5ae23; */
 }
 
 .white-text {
@@ -118,7 +138,7 @@ a {
 }
 
 .gray {
-  background-color: #f3f3f3;
+  background-color: #F7F5E6; /* #f3f3f3; */
   padding-bottom: 10px;
   clear: both;
 }
@@ -129,7 +149,7 @@ a {
 
 /* TODO: Replace with image later */
 #header {
-  background-color: #484848;
+  background-color: #333A56;   /* #484848; */
 }
 
 .flex-box {

@@ -27,7 +27,10 @@ var bio = {
 		$.each(this.skills, function(i, v) {
 			$("#skills").append(HTMLskills.replace("%data%", v));
 		});
-		
+		$("#footerContacts").append(HTMLmobile.replace("%data%", this.contacts.mobile));
+		$("#footerContacts").append(HTMLemail.replace("%data%", this.contacts.email));
+		$("#footerContacts").append(HTMLgithub.replace("%data%", this.contacts.github));
+		$("#footerContacts").append(HTMLlocation.replace("%data%", this.contacts.location));
 
 
 
